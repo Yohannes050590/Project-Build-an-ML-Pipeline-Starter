@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9.15 # Keep this for your main dev environment
+  - python=3.8 # Keep this for your main dev environment
   - mlflow=2.8.1
   - pandas=1.5.3 # Pin pandas to this version for overall compatibility
   - scikit-learn=1.1.3 # Pin scikit-learn to a version compatible with older scipy/libstdc++
