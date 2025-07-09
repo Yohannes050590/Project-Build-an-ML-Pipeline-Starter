@@ -9,6 +9,7 @@ dependencies:
   - scikit-learn=1.1.3 # Pin scikit-learn to a version compatible with older scipy/libstdc++
   - scipy=1.9.3 # Pin scipy to a version compatible with older libstdc++
   - pip=23.0.1
+  - gxx_linux-64
   - pip:
     - wandb==0.16.0
     - ydata-profiling==4.12.1
