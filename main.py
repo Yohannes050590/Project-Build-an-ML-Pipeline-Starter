@@ -54,6 +54,7 @@ def go(config: DictConfig):
                     "artifact_name": "sample.csv",
                     "artifact_type": "raw_data",
                     "artifact_description": "Raw file as downloaded"
+                    "wandb_project":"none",
                 },
             )
 
@@ -148,6 +149,8 @@ def go(config: DictConfig):
                     "min_samples_leaf": config["modeling"]["random_forest"]["min_samples_leaf"],
                     "min_samples_split": config["modeling"]["random_forest"]["min_samples_split"],
                     "output_artifact": "random_forest_export",
+                    "rf_config": rf_config_path, # <--- Added this line
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"], # <--- Added this line
                 },
             )
 
