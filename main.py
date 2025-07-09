@@ -54,7 +54,7 @@ def go(config: DictConfig):
                     "artifact_name": "sample.csv",
                     "artifact_type": "raw_data",
                     "artifact_description": "Raw file as downloaded",
-                    "wandb_project":"none"
+                    "wandb_project":"none",
                 },
             )
 
