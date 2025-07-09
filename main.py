@@ -53,8 +53,8 @@ def go(config: DictConfig):
                     "sample": config["etl"]["sample"],
                     "artifact_name": "sample.csv",
                     "artifact_type": "raw_data",
-                    "artifact_description": "Raw file as downloaded"
-                    "wandb_project":"none",
+                    "artifact_description": "Raw file as downloaded",
+                    "wandb_project":"none"
                 },
             )
 
